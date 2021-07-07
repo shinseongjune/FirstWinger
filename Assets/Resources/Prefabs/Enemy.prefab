@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1681036900141550332}
   - component: {fileID: 6083722996920673584}
   - component: {fileID: 2764300922729521772}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75,7 +75,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7668597109259115888}
   - component: {fileID: 4955745559048869568}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EnemyCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120,7 +120,7 @@ GameObject:
   - component: {fileID: 8046517926868659179}
   - component: {fileID: 8060690673267233123}
   - component: {fileID: 8067740668972242379}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: StarSparrow13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
