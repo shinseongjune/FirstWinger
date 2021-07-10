@@ -14,6 +14,17 @@ public class SystemManager : MonoBehaviour
         }
     }
 
+    [SerializeField]
+    Player player;
+
+    public Player Hero
+    {
+        get
+        {
+            return player;
+        }
+    }
+
     private void Awake()
     {
         if(instance != null)
@@ -24,17 +35,6 @@ public class SystemManager : MonoBehaviour
         }
 
         instance = this;
-    }
-
-    [SerializeField]
-    Player player;
-
-    public Player Hero
-    {
-        get
-        {
-            return player;
-        }
     }
 
     // Start is called before the first frame update
